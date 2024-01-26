@@ -1,0 +1,154 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dynamic-pages;create-a-url-dynamic",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Create a url dynamic",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 315586399
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "dropoffHour",
+                      "10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "dropoffMinute",
+                      "00"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pickupHour",
+                      "10"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pickupMinute",
+                      "00"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pickupLocation",
+                      "ORYT01"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "dropoffLocation",
+                      "ORYT01"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "countryOfResidence",
+                      "FR"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pickupDateInDay",
+                      "03"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "dropoffDateInDay",
+                      "05"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am a user on \"review\" page with following search params",
+            "match": {
+              "location": "src\\steps\\urlDynamic.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570591900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I can not click on \"Apply coupon code\" button when the field is empty",
+            "match": {
+              "location": "src\\steps\\urlDynamic.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2392299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I enter a valid coupon code \"HAPPYBD10\" and the coupon is applied",
+            "match": {
+              "location": "src\\steps\\urlDynamic.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76184700
+            },
+            "embeddings": [
+              {
+                "data": "U3RhdHVzOiBQQVNTRUQuIER1cmF0aW9uOjBz",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@urlDynamic",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dynamic-pages",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "dynamic pages",
+    "tags": [
+      {
+        "name": "@urlDynamic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\features\\urlDynamic.feature"
+  }
+]
